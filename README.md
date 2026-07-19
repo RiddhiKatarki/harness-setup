@@ -8,7 +8,7 @@ Bootstrap script for spinning up a fresh [code-server](https://github.com/coder/
 2. Installs `opencode-ai` globally via npm.
 3. Writes `~/.config/opencode/opencode.jsonc` with the Surplus Intelligence provider (models: GLM 5.2, Kimi K3, GPT 5.5, MiniMax M3; default model `surplus/glm-5.2`).
 
-No API key is stored in this repo — you'll paste it interactively via `opencode auth login`.
+API key is configured interactively via `opencode auth login`.
 
 ## Usage
 
